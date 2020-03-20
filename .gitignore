@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+#tsc generated files
+js/*.map
+js/ts.js

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is a sample project with `Node.js`, `TypeScript` and `ESLint`. It contains basic building, development, and production environment settings for a Node.js with TypeScript application. You can use this as a reference implementation to start your Node.js with TypeScript project. And you can also lint the code and fix it using `ESLint`. Check the scripts in `package.json` file for linting.
+This is a sample project with `Node.js`, `TypeScript` and `ESLint`. It contains basic building, development, and production environment settings for a Node.js with TypeScript application. You can use this as a reference implementation to start your Node.js with TypeScript and ESLint project. And you can also lint the code and fix it using `ESLint`. Check the scripts in `package.json` file for linting.
 
 <br/>
 

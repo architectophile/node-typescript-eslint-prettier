@@ -10,13 +10,12 @@ This is a sample project with `Node.js`, `TypeScript` and `ESLint`. It contains 
 
 ## Prerequisites
 
-To run this application, these prerequisites below should be installed on the system before you run it. So please make sure all the prerequisites are satisfied.
+To run this application, these prerequisites below should be installed on the system before you run it. So please make sure all the prerequisites below are satisfied.
 
 | Classification | Name           |
 |----------------|----------------|
 | Framework      | Node.js        |
 | Framework      | NPM            |
-
 
 <br/>
 

@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "no-loops"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+    // "plugin:shopify/esnext" // Uncomment this line and comment the rest of the extends below, if you want to use 'Shopify'.
+  ],
+  "rules": {
+    "no-console": "warn", // Using 'console.log()' is allowed but a 'warning' will be displayed.
+    "no-loops/no-loops": "error"
+  }
+}

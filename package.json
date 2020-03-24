@@ -1,30 +1,38 @@
 {
-  "name": "node-typescript-starter",
+  "name": "node-typescript-eslint",
   "version": "1.0.0",
-  "description": "A starter project with Node.js and TypeScript",
+  "description": "A sample project with Node.js, TypeScript and ESLint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js"
+    "start": "npm run build && node build/index.js",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/architectophile/node-typescript-starter.git"
+    "url": "git+https://github.com/architectophile/node-typescript-eslint.git"
   },
   "keywords": [
     "TypeScript",
-    "Node.js"
+    "Node.js",
+    "ESLint"
   ],
   "author": "architectophile",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/architectophile/node-typescript-starter/issues"
+    "url": "https://github.com/architectophile/node-typescript-eslint/issues"
   },
-  "homepage": "https://github.com/architectophile/node-typescript-starter#readme",
+  "homepage": "https://github.com/architectophile/node-typescript-eslint#readme",
   "devDependencies": {
     "@types/node": "^13.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-shopify": "^35.1.0",
     "nodemon": "^2.0.2",
     "rimraf": "^3.0.2",
     "ts-node": "^8.7.0",

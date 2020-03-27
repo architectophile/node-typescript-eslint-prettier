@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-eslint",
+  "name": "node-typescript-eslint-prettier",
   "version": "1.0.0",
-  "description": "A sample project with Node.js, TypeScript and ESLint",
+  "description": "A sample project with Node.js, TypeScript, ESLint, and Prettier",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,19 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/architectophile/node-typescript-eslint.git"
+    "url": "git+https://github.com/architectophile/node-typescript-eslint-prettier.git"
   },
   "keywords": [
     "TypeScript",
     "Node.js",
-    "ESLint"
+    "ESLint",
+    "Prettier"
   ],
   "author": "architectophile",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/architectophile/node-typescript-eslint/issues"
+    "url": "https://github.com/architectophile/node-typescript-eslint-prettier/issues"
   },
-  "homepage": "https://github.com/architectophile/node-typescript-eslint#readme",
+  "homepage": "https://github.com/architectophile/node-typescript-eslint-prettier#readme",
   "devDependencies": {
     "@types/node": "^13.9.2",
     "@typescript-eslint/eslint-plugin": "^2.24.0",

@@ -1,10 +1,12 @@
-# A sample project with Node.js, TypeScript and ESLint
+# A sample project with Node.js, TypeScript, ESLint, and Prettier
 
 <br/>
 
 ## Introduction
 
-This is a sample project with `Node.js`, `TypeScript` and `ESLint`. It contains basic building, development, and production environment settings for a Node.js with TypeScript application. You can use this as a reference implementation to get started building your Node.js with TypeScript and ESLint project. And you can also lint the code and fix it using `ESLint`. Check the scripts in `package.json` file for linting.
+This is a sample project with `Node.js`, `TypeScript`, `ESLint` and `Prettier`. It contains basic building, development, and production environment settings for a Node.js with TypeScript application. You can use this as a reference implementation to get started building your Node.js with TypeScript, ESLint, and Prettier project. And you can also lint the code and fix it using `ESLint`. Check the scripts in `package.json` file for linting.
+
+Using `Visual Studio Code(VS Code)` editor with `Prettier - Code formatter` extension is recommended to edit the source file to make the most of the combination of `ESLint` and `Prettier`.
 
 <br/>
 
